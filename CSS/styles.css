@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-size: 2rem;
+    font-family: 'Kumbh Sans';
+     background-image: 
+     url(../images/bg-pattern-top.svg),
+     url(../images/bg-pattern-bottom.svg); 
+    background-color:  hwb(185 10% 32%);
+    background-repeat: no-repeat, no-repeat; 
+    background-position:  right 50vw bottom 50vh, left 48vw top 50vh;  
+    
+ }
+
+.main-container{
+    max-width: 25rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 3%;
+    
+}
+.pattern-card{
+    width:25rem;
+    border-radius: 3% 3% 0 0;
+
+}
+.victor{
+    position: relative;
+    bottom:3rem;
+    border-radius: 50%; 
+    border: 5px solid white;
+}
+h1{
+    position: relative;
+    bottom: 2.5rem;
+    font-weight: 700;
+}
+.gray{
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+
+}
+.london{
+    position: relative;
+    bottom: 25px;
+    color:hsl(227, 10%, 46%) ;
+}
+
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    border-top: 1px solid hsl(227, 10%, 46%, 0.1);
+    padding-top: 1rem;
+
+}
+.grid span{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 0.4rem;
+}
+.grid p{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size:13px;
+    letter-spacing: 1.0px;
+    
+}
+
+ .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2.5rem;
+   
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+ @media(max-width:960px){
+    .main-container{
+        max-width:25rem;
+        
+      
+    }
+    
+ }
+
