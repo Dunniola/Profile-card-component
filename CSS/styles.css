@@ -88,12 +88,12 @@ h1{
  }
  @media(max-width:960px){
     .main-container{
-        max-width:24rem;
+        max-width:20rem;
         
       
     }
     .pattern-card{
-        max-width: 24rem;
+        max-width: 20rem;
     }
  }
 
