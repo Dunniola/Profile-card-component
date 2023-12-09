@@ -32,7 +32,7 @@ Mobile design
 ### Links
 
 - Solution URL: [View Demo](https://github.com/Dunniola/Profile-card-component.git)
-- Live Site URL: [Netlify App](https://your-live-site-url.com)
+- Live Site URL: [Netlify App](https://profile-main-card-component.netlify.app/)
 
 ## My process
 
@@ -46,6 +46,6 @@ Mobile design
 
 ## Author
 
-- Website - [Dunniola](https://www.your-site.com)
+- Website - [Dunniola](https://profile-main-card-component.netlify.app/)
 - Frontend Mentor - [@Dunniola](https://www.frontendmentor.io/profile/Dunniola)
 - Twitter - [@Eduoladunni](https://www.twitter.com/Eduoladunni)
